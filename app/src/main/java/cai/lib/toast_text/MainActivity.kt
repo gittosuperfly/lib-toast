@@ -3,6 +3,8 @@ package cai.lib.toast_text
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
+import android.widget.Toast
 import cai.lib.toast.ToastUtils
 
 class MainActivity : AppCompatActivity() {

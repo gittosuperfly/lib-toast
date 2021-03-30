@@ -10,4 +10,9 @@ class App : Application() {
         super.attachBaseContext(base)
         ToastUtils.init(this)
     }
+
+    override fun onCreate() {
+        super.onCreate()
+        ToastUtils.init(this)
+    }
 }
